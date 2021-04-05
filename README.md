@@ -48,11 +48,11 @@ Terminal 3
 The exploration relies on the correct sequence else rendering with no goal for each of the robot.
 1. Top Left
 2. Bottom Left
-3. Top Right
-4. Bottom Right
+3. Bottom Right
+4. Top Right
 5. Initial Point
 
-As shown in the following figure:
+As shown in the following figure for the sequence:
  ![Instruction](/instruction.png)
 
 
