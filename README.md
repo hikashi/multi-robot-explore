@@ -25,7 +25,7 @@ create a new folder called "catkin_explore/src" by executing the following comme
 
     $ sudo mkdir -p ~/catkin_explore/src
     $ cd ~/catkin_explore/src/
-    $ git clone <URL here>
+    $ git clone git@github.com:hikashi/multi-robot-explore.git
     $ cd ~/catkin_explore
     $ catkin_make
 
@@ -44,4 +44,21 @@ Terminal 3
      # . ~/catkin_explore/devel/setup.bash 
      # roslaunch rrt_exploration three_robots.launch 
 
-## now to execute the data
+## Exploration Process
+The exploration relies on the correct sequence else rendering with no goal for each of the robot.
+1. Top Left
+2. Bottom Left
+3. Top Right
+4. Bottom Right
+5. Initial Point
+
+As shown in the following figure:
+
+
+
+
+## Known issues
+- Tasks allocation for each of the robots is very limited
+- Expandability of the robots. (Currently 1 or 3 robots)
+- Stucked locally (maybe the collision avoidance / path planning not so optimal)
+- Exploration ended before whole map is being explored. 
