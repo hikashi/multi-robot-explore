@@ -1,4 +1,8 @@
 # Multi-Turtlebot Simulation Exploration based on RRT
+This package is a compilation of the RRT package in a much complete package rather than figuring map merging and other function from other resipotary. 
+This would serve as a self-contained package for the exploration module using simulation for the turtlebot.
+
+
 credit to hasauino for creating the RRT exploration packages.
 
 [RRT Exploration package](https://github.com/hasauino/rrt_exploration "RRT Exploration").
