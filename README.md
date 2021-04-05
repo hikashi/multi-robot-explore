@@ -1,4 +1,4 @@
-# Multi-robot-explore based on ROS RRT Package
+# Multi-Turtlebot Simulation Exploration based on RRT
 credit to hasauino for creating the RRT exploration packages.
 
 [RRT Exploration package](https://github.com/hasauino/rrt_exploration "RRT Exploration").
