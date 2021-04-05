@@ -1,6 +1,7 @@
 # Multi-robot-explore based on ROS RRT Package
 credit to hasauino for creating the RRT exploration packages.
 [RRT Exploration package](https://github.com/hasauino/rrt_exploration "RRT Exploration").
+
 [RRT Exploration Tutorial package](https://github.com/hasauino/rrt_exploration_tutorials "RRT Exploration").
 
 ## Requirements
