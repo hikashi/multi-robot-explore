@@ -53,8 +53,7 @@ The exploration relies on the correct sequence else rendering with no goal for e
 5. Initial Point
 
 As shown in the following figure:
-
-
+ ![Instruction](/instruction.png)
 
 
 ## Known issues
