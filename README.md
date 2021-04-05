@@ -32,6 +32,7 @@ create a new folder called "catkin_explore/src" by executing the following comme
 
 ## Execution
 The program can be executed using the following comments in three terminal:
+
 Terminal 1
 
      # roscore 
