@@ -29,7 +29,7 @@ create a new folder called "catkin_explore/src" by executing the following comme
 
     $ sudo mkdir -p ~/catkin_explore/src
     $ cd ~/catkin_explore/src/
-    $ git clone git@github.com:hikashi/multi-robot-explore.git
+    $ git clone https://github.com/hikashi/multi-robot-explore.git
     $ cd ~/catkin_explore
     $ catkin_make
 
