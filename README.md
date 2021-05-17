@@ -60,6 +60,17 @@ The exploration relies on the correct sequence else rendering with no goal for e
 As shown in the following figure for the sequence:
  ![Instruction](/instruction2.png)
 
+## Error with library issues
+If you encountered issues such as:
+
+    ERROR: cannot launch node of type [rrt_exploration/filter.py]: can't locate node [filter.py] in package [rrt_exploration]
+    ERROR: cannot launch node of type [rrt_exploration/assigner.py]: can't locate node [assigner.py] in package [rrt_exploration]
+
+You may need to change the file permission to executable using the following commands:
+
+    chmod +x ~/[YOUR_DIRECTORY]/src/multi-robot-explore/rrt_exploration/scripts/filter.py 
+    chmod +x ~/[YOUR_DIRECTORY]/src/multi-robot-explore/rrt_exploration/scripts/assigner.py 
+
 
 ## Known issues
 - Tasks allocation for each of the robots is very limited
