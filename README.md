@@ -42,11 +42,11 @@ Terminal 1
      # roscore 
 Terminal 2
 
-     # . ~/catkin_explore/devel/setup.bash 
+     # source ~/catkin_explore/devel/setup.bash 
      # roslaunch rrt_exploration_tutorials mutliple_simulated_largeMap.launch 
 Terminal 3
 
-     # . ~/catkin_explore/devel/setup.bash 
+     # source ~/catkin_explore/devel/setup.bash 
      # roslaunch rrt_exploration three_robots.launch 
 
 ## Exploration Process
